@@ -1,0 +1,78 @@
+*{
+    margin:0px auto;
+    padding: 0px;
+    font-family:sans-serif
+}
+div.head{
+    background:green;
+    margin: 0px auto;
+    text-align: center;
+    color:white;
+    padding:18px;
+    box-sizing:border-box;
+
+}
+span.same_cat{
+    font-size:16px;
+
+}
+div.button_container {
+    height: 25px;
+    overflow: hidden;
+    padding: 0px 14% 0px 14%;
+    box-sizing: border-box;
+    font-weight:bold
+}
+div.play{
+    float:left;
+    padding-top:4px;
+}
+div.correct{
+    text-align:center;
+    float:left;
+    width:70%;
+    padding-top:4px;
+}
+.correct p {
+    padding-left: 13%;
+}
+div.easy_hard{
+    float:right
+}
+div.easy{
+    float:left;
+    padding-top:4px;
+}
+div.hard {
+    float: right;
+    margin-left: 22px;
+    padding-top:4px;
+}
+div.body_container {
+    background-color: black;
+    width: 100%;
+    height: 453px;
+}
+div.color_container {
+    margin: 0px auto;
+    width: 50%;
+    height: 100%;
+    padding: 2%;
+}
+div.square {
+    width: 28%;
+    height: 28%;
+    background: white;
+    border-radius: 4%;
+    margin: 3% 2% 1% 1%;
+    float: left;
+    transition:1s;
+}
+.play_again{
+    color:red;
+}
+.selected {
+    background-color: blue;
+    color: white;
+    padding: 4px 5px 3px 5px;
+}
